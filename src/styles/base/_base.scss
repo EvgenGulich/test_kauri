@@ -1,0 +1,35 @@
+@import url("http://fonts.cdnfonts.com/css/noto-sans");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1920px;
+    min-width: 100%;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: $g-color-white;
+}
+
+.overflow-block {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: $g-font-second-size;
+    font-weight: 400;
+}
